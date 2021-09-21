@@ -1,0 +1,70 @@
+body {
+     background-image: url("pexels-steve-johnson-1988693.jpg");
+     background-color: #cccccc;
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     font-family: 'Chewy', cursive;
+     text-align: center;
+}
+.header{
+    font-size: 23px;
+    font-weight: bold;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:burlywood;
+}
+.headingDiv{
+    float: none;
+    
+}
+
+.headingDiv2{
+    font-size: 23px;
+    font-weight: bold;
+    background-color: brown;
+    color: dodgerblue;
+}
+
+.pTag{
+    font-size: 30px;
+    background-color:rgba(0, 0, 255, 0.623);
+    border-radius: 20px;
+    border: 5px solid black;
+    color: brown;
+}
+.footer{
+    line-height: 10;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(128, 255, 0, 0.514);
+}
+
+canvas {
+    animation-name: animation1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+    border: 4px solid black;
+}
+
+@keyframes animation1 {
+    1%  {box-shadow: 1px 1px 15px yellow};
+    10% {box-shadow: 1px 1px 15px greenyellow};
+    20% {box-shadow: 1px 1px 15px aquamarine};
+    30% {box-shadow: 1px 1px 15px aqua};
+    40% {box-shadow: 1px 1px 15px aquamarine};
+    50% {box-shadow: 1px 1px 15px greenyellow};
+    60% {box-shadow: 1px 1px 15px yellow};
+    70% {box-shadow: 1px 1px 15px orange};
+    80% {box-shadow: 1px 1px 15px red};
+    90% {box-shadow: 1px 1px 15px orange};
+    100% {box-shadow: 1px 1px 15px yellow};
+}

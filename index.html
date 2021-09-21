@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <center>
+    <h3 class="btn btn-dark header">Realtime Image Identification App 
+      <center>
+        <hr>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 headingDiv">
+          This model is trained on the following:
+          <br> 
+          <div class="btn btn-dark headingDiv2">
+            Phone | Spoon | Watch | Water Bottle
+          </div>
+        </div>
+      </center>
+    </h3>
+  </center>
+  <br>
+  <br>
+  <p class="btn btn-dark pTag">Object : 
+    <span id="object-name-span"></span>
+  </p>
+  <br>
+  <br>
+  <p class="btn btn-dark pTag">Accuracy : 
+  <span id="object-accuracy-span"></span>
+  </p>
+  <center>
+    <div class="footer">
+      <b>
+        <h1>Developed by - Eshaan K A</h1>
+      </b>
+    </div>
+  </center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
